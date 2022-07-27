@@ -1,0 +1,58 @@
+.headerList {
+  max-width: 35rem;
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 800px) {
+  .headerList {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .headerList {
+    max-width: 25rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .headerList h2 {
+    text-align: center;
+  }
+}
+
+.headerList h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  width: 140px;
+  max-width: 140px;
+  color: rgba(33, 37, 41, 1);
+}
+@media screen and (min-width: 600px) {
+  .headerList h2 {
+    margin-right: 4.75rem;
+  }
+}
+
+.headerList button {
+  margin-right: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  padding: 10.5px 15px 10.5px 15px;
+  height: 40px;
+}
+.headerList section {
+  display: flex;
+  flex-direction: row;
+}
+.headerList button:hover {
+  background-color: #fd377e;
+  border: 1.4px solid #fd377e;
+  color: #ffffff;
+}
+
+.headerList button:focus {
+  background-color: #fd377e;
+  border: 1.4px solid #fd377e;
+  color: #ffffff;
+}

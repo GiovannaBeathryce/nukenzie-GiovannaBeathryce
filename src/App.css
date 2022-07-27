@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Container {
+  margin: 30px 200px 40px 200px;
+  max-height: 35rem;
+  max-width: 62rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .Container {
+    margin: 240px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Container {
+    margin: 260px 15px;
+  }
+}
+
+.homePage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  font-family: "Nunito", sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  .homePage {
+    flex-direction: column;
+    margin: 4rem auto;
+    height: 100%;
+  }
+
+  .figure {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .homePage {
+    width: 100%;
+  }
+
+  .content {
+    width: 20rem;
+    margin-left: 4rem;
+  }
+
+  .figure {
+    width: 23rem;
+    height: 23rem;
+  }
+}
+.homePage h1 {
+  width: 20rem;
+  color: #ffffff;
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-right: 3rem;
+}
+.homePage p {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+.homePage button {
+  background: #fd377e;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+  padding: 0.75rem 5.5rem 0.75rem 5.5rem;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.homePage button:hover {
+  background-color: rgba(227, 73, 129, 1);
+  border: 2px solid #e34981;
+}
+
+.logo {
+  width: 7.62rem;
+  height: 1.5rem;
+}
+
+.figure {
+  max-width: 35rem;
+  max-height: 35rem;
+}

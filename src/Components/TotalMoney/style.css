@@ -1,0 +1,33 @@
+.valorTotal {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+
+  max-width: 22.68rem;
+  max-height: 6rem;
+  border-radius: 4px;
+  border: 1px solid #e9ecef;
+  padding: 0.5rem;
+  margin-top: 1rem;
+}
+
+.valorTotal h2 {
+  font-size: 1rem;
+  color: rgba(33, 37, 41, 1);
+  font-weight: 700;
+}
+
+.valorTotal span {
+  font-size: 1rem;
+  color: #fd377e;
+  font-weight: 700;
+  margin-left: 9rem;
+}
+
+.valorTotal p {
+  text-align: left;
+  margin-left: 1.5rem;
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 0.75rem;
+}

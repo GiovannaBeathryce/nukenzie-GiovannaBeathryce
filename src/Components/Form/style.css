@@ -1,0 +1,83 @@
+.Form {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  max-width: 22.68rem;
+  max-height: 21.93rem;
+  border-radius: 4px;
+  border: 1px solid #e9ecef;
+  padding: 1.5rem;
+}
+
+.Form label {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #212529;
+  text-align: left;
+}
+
+.Form span {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #868e96;
+  text-align: left;
+  margin: 4px 0 4px 0;
+}
+
+.Form input {
+  border-radius: 8px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+
+  font-weight: 400;
+  font-size: 1rem;
+  color: #868e96;
+
+  height: 3rem;
+  padding: 0 16px 0 16px;
+  margin-top: 0.65rem;
+}
+
+.valor {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  width: 22.68rem;
+}
+
+.valor input {
+  width: 5.95rem;
+  margin-right: 2rem;
+  text-align: right;
+}
+
+.valor select {
+  height: 3rem;
+  border-radius: 8px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  margin-bottom: 1rem;
+
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: rgba(52, 58, 64, 1);
+  padding: 0 1rem 0 1rem;
+  width: 9.37rem;
+  height: 3.25rem;
+  margin-top: 0.65rem;
+  cursor: pointer;
+}
+
+.Form button {
+  background: #fd377e;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+  padding: 0.75rem 4.93rem 0.75rem 4.93rem;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.Form button:hover {
+  background-color: rgba(227, 73, 129, 1);
+  border: 2px solid #e34981;
+}
